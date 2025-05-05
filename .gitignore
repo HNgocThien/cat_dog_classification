@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore data
+dataset/
+model/
+*.pth
+*.pkl
+
+# Ignore Jupyter checkpoints
+*.ipynb_checkpoints
+
+# Ignore VSCode and IDE files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
